@@ -22,7 +22,7 @@ public class Main {
             System.out.println();
         }
 
-        // a) Mostrar nombre y género de las 5 personas
+        // a) Mostrar nombre y genero de las 5 personas
         System.out.println("Nombre y género de las personas:");
         for (Persona p : personas) {
             p.mostrarNombreYGenero();
@@ -36,7 +36,7 @@ public class Main {
         double promedio = (double) sumaEdades / personas.length;
         System.out.println("\nPromedio de edades: " + promedio);
 
-        // c) Cantidad de género Masculino y Femenino
+        // c) Cantidad de genero Masculino y Femenino
         int contadorMasculino = 0;
         int contadorFemenino = 0;
 
